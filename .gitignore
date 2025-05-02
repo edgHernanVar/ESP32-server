@@ -1,3 +1,19 @@
+# Node
 node_modules/
 dist/
+
+# Archivos del entorno
 .env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Uploads (si no quieres subir los archivos reales del ESP32)
+uploads/
